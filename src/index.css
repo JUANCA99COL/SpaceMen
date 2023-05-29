@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: linear-gradient( to left, rgb(192, 36, 37), rgb(240, 203, 53));
+  background-repeat: no-repeat;
+  background-attachment: fixed; /*edit*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  background-color: white;
+  cursor: pointer;
+}
+
+.container {
+  padding: 5%;
+}
+
+.searchBox {
+  margin-bottom: 40px;
+  border-radius: 25px;
+  width: 30%;
+  text-align: center;
+}
