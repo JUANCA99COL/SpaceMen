@@ -11,8 +11,14 @@
     color: white;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+.loading {
+    font-family: 'SEGA LOGO FONT';
+    font-weight: 200;
+    color: white;
+}
+
+/*devices (Ipads and phones, 820px and down) */
+@media only screen and (max-width: 820px) {
     .title {
         margin-top: 40px;
         font-size: 30px;
