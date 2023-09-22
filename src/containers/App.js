@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import Loader from '../components/Loader';
 import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 
@@ -23,7 +24,7 @@ import './App.css';
         return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
         return !robots.length ?
-        <h1 className='loading tc'>Loading</h1> : 
+        <Loader/> :
         (
             <div className='tc container'>
                 <h1 className='f1 title'>SpaceMen</h1>
